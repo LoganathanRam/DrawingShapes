@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:gravity="center|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_below="@+id/fragment1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnforcircle"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="Circ"
+            android:onClick=""/>
+
+        <Button
+            android:id="@+id/btnforrect"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="Rec"
+            android:onClick=""/>
+
+        <Button
+            android:id="@+id/btnforline"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="Lin"
+            android:onClick=""/>
+
+        <Button
+            android:id="@+id/btnforundo"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="Und"
+            android:onClick=""/>
+
+        <Button
+            android:id="@+id/btnforerase"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:onClick=""/>
+
+        <Button
+            android:id="@+id/btnforredo"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:onClick=""/>
+    </LinearLayout>
+
+</LinearLayout>
